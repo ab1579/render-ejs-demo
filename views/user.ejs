@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+ <title>Home Page</title>
+</head>
+<body>
+ <h1>Employees</h1>
+ <% for (var i in employees) {%>
+ <p>Name: <%=employees[i].name%>, Role: <%=employees[i].role%>,
+Pay: <%=employees[i].pay%><p>
+ <% } %>
+</body>
+</html>
